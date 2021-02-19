@@ -12,10 +12,12 @@ public class HomePageStep  {
     {
         homePage.open();
     }
+   @Step
     public void searchPlace()
     {
         homePage.search();
     }
+   @Step
     public void titleVerification()
     {
        // Assert.assertTrue(homePage.verifyHomePageTitle().equals("Home Page | Mail Travel"));
